@@ -29,8 +29,8 @@
 }
 
 #nav-bar {
-    grid-column: 4 / -1;
-    justify-self: center;
+    grid-column: 3 / -1;
+    justify-self: end;
 }
 
 .nav-link {
@@ -130,7 +130,7 @@ a:hover {
     margin: 40px;
 }
 
-.thumbnail {
+.thumbnail, #video {
     width: 325px;
     height: 226px;
 
@@ -142,6 +142,46 @@ a:hover {
 }
 
 #vegetables {
-    padding: 0 70px 0 70px;
+     padding: 0 70px 0 70px;
 }
 
+.wwa-container {
+    display: flex;
+    justify-content: center;
+}
+
+#paragraph-container {
+    width: 733px;
+    height: 319px;
+    margin: -20px 0 0 50px;
+    align-self: start;
+    text-align: justify;
+    padding: 0;
+}
+
+#connect {
+    width: 100vw;
+    height: auto;
+    background-color: #4C79BB ;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: white;
+    margin: 20px 0 10px 0;
+}
+
+h5 {
+    font-size: 1em;
+    color: white;
+    margin: 0; 
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.icon {
+    width: 60px;
+    height: 58px;
+}

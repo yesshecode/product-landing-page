@@ -9,28 +9,28 @@
     <body>
         <div class="container">
             <header id="header">
-                <img src="img/logo.png" id="header-img" alt="logo">
+                <img id="header-img" src="img/logo.png" alt="logo">
                 <nav id="nav-bar">
                     <ul id="menu">
                         <li class="nav-link"><a href= "#products">our products</a></li>
-                        <li class="nav-link"><a href="#">who we are</a></li>
-                        <li class="nav-link"><a href="#">connect with us</a></li>
+                        <li class="nav-link"><a href="#who-we-are">who we are</a></li>
+                        <li class="nav-link"><a href="#connect">connect with us</a></li>
                     </ul>
                 </nav>
             </header>
-            <section>
-                <!--<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nRwDVD4Q26E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                <div id="banner-container">
-                    <h1 id="title">Fresh on Demand</h1>
-                    <h3 id="sub-title">Fruits and Vegetables Delivered at Home</h3>
-                    </h3>
-                    <form id="form" action="https://www.freecodecamp.com/email-submit)">
-                        <label for="email">
-                            <input id="email" name="email" type="email" placeholder="me@email.com">
-                        </label></br>
+            
+            <div id="banner-container">
+                 <h1 id="title">Fresh on Demand</h1>
+                <h3 id="sub-title">Fruits and Vegetables Delivered at Home</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit)">
+                    <label for="email">
+                        <input id="email" name="email" type="email" placeholder="me@email.com">
+                    </label></br>
                         <input id="submit" type="submit" value="order now">
                     </form>
-                </div>
+            </div>
+
+            <section id="products">
                 <h3 class="section-title" id="products">Our Products</h3>
                 <div id="products-container">
                     <div id="fruits" class="prod-sub-container">
@@ -45,12 +45,34 @@
                     </div>
                     <div id="fruit-veg" class="prod-sub-container">
                         <img class="thumbnail" src="img/fruits-vegs.jpg" alt="fruits and vegetables">
-                        <p class="prod-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                        <button class="select" type="button">select</button>
+                        <p class="prod-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>                        <button class="select" type="button">select</button>
                     </div>
                 </div>
             </section>
+
+            <section id="who-we-are">
+                <h3 class="section-title">Who we are</h3>
+                <div class="wwa-container">
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uHwbrtpleaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div id="paragraph-container">
+                        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus mattis rhoncus urna neque. Sit amet massa vitae tortor condimentum. Ut venenatis tellus in metus. </p>
+                        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus mattis rhoncus urna neque. Sit amet massa vitae tortor condimentum. Ut venenatis tellus in metus. </p>
+                        <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus mattis rhoncus urna neque. Sit amet massa vitae tortor condimentum. Ut venenatis tellus in metus. </p>
+                    </div>    
+                </div>
+            </section>    
+
+            <footer id="connect"> 
+                <h4>Do you want to know more?</h2>
+                <h5>connect with us</h5>
+                <div id="social-icon">
+                    <a href="#"><img class="icon" src="img/instagram.png" alt="instagram"></a>
+                    <a href="#"><img class="icon" src="img/twitter.png" alt="twitter"></a>
+                </div>
+            </footer>
+
         </div>    
-        <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>    
 </html>
